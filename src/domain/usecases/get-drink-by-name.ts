@@ -1,6 +1,7 @@
 import { DrinkByNameModel } from '@/domain/model/drink-by-name-model'
+
 export type GetDrinkByNameParams = {
-    nameDrink: string
+    url?: string
 }
 
 export interface GetDrinkByName {
